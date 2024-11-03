@@ -14,6 +14,8 @@
 		8B948D572CD8395E0024FE25 /* MealRaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B948D562CD8395E0024FE25 /* MealRaterTests.swift */; };
 		8B948D612CD8395E0024FE25 /* MealRaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B948D602CD8395E0024FE25 /* MealRaterUITests.swift */; };
 		8B948D632CD8395E0024FE25 /* MealRaterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B948D622CD8395E0024FE25 /* MealRaterUITestsLaunchTests.swift */; };
+		8B948D702CD83C780024FE25 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B948D6F2CD83C780024FE25 /* RatingView.swift */; };
+		8B948D722CD83FBF0024FE25 /* RatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B948D712CD83FBF0024FE25 /* RatingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		8B948D5C2CD8395E0024FE25 /* MealRaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealRaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B948D602CD8395E0024FE25 /* MealRaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRaterUITests.swift; sourceTree = "<group>"; };
 		8B948D622CD8395E0024FE25 /* MealRaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B948D6F2CD83C780024FE25 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		8B948D712CD83FBF0024FE25 /* RatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				8B948D482CD8395D0024FE25 /* Assets.xcassets */,
 				8B948D4A2CD8395D0024FE25 /* MealRater.entitlements */,
 				8B948D4B2CD8395D0024FE25 /* Preview Content */,
+				8B948D6F2CD83C780024FE25 /* RatingView.swift */,
+				8B948D712CD83FBF0024FE25 /* RatingButton.swift */,
 			);
 			path = MealRater;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B948D702CD83C780024FE25 /* RatingView.swift in Sources */,
 				8B948D472CD839590024FE25 /* ContentView.swift in Sources */,
+				8B948D722CD83FBF0024FE25 /* RatingButton.swift in Sources */,
 				8B948D452CD839590024FE25 /* MealRaterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
