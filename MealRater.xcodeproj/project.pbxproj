@@ -16,6 +16,8 @@
 		8B948D632CD8395E0024FE25 /* MealRaterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B948D622CD8395E0024FE25 /* MealRaterUITestsLaunchTests.swift */; };
 		8B948D702CD83C780024FE25 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B948D6F2CD83C780024FE25 /* RatingView.swift */; };
 		8B948D722CD83FBF0024FE25 /* RatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B948D712CD83FBF0024FE25 /* RatingButton.swift */; };
+		8B94ED822CEAF4EB009E1701 /* MealRater.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B94ED802CEAF4EB009E1701 /* MealRater.xcdatamodeld */; };
+		8B94ED842CEAF585009E1701 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B94ED832CEAF585009E1701 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,6 @@
 		8B948D442CD839590024FE25 /* MealRaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRaterApp.swift; sourceTree = "<group>"; };
 		8B948D462CD839590024FE25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B948D482CD8395D0024FE25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8B948D4A2CD8395D0024FE25 /* MealRater.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MealRater.entitlements; sourceTree = "<group>"; };
 		8B948D4C2CD8395D0024FE25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B948D522CD8395E0024FE25 /* MealRaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealRaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B948D562CD8395E0024FE25 /* MealRaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRaterTests.swift; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		8B948D622CD8395E0024FE25 /* MealRaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B948D6F2CD83C780024FE25 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		8B948D712CD83FBF0024FE25 /* RatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingButton.swift; sourceTree = "<group>"; };
+		8B94ED812CEAF4EB009E1701 /* MealRater.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MealRater.xcdatamodel; sourceTree = "<group>"; };
+		8B94ED832CEAF585009E1701 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		8B94ED852CEAF652009E1701 /* MealRater.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MealRater.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				8B948D442CD839590024FE25 /* MealRaterApp.swift */,
+				8B94ED852CEAF652009E1701 /* MealRater.entitlements */,
 				8B948D462CD839590024FE25 /* ContentView.swift */,
 				8B948D482CD8395D0024FE25 /* Assets.xcassets */,
-				8B948D4A2CD8395D0024FE25 /* MealRater.entitlements */,
 				8B948D4B2CD8395D0024FE25 /* Preview Content */,
 				8B948D6F2CD83C780024FE25 /* RatingView.swift */,
 				8B948D712CD83FBF0024FE25 /* RatingButton.swift */,
+				8B94ED802CEAF4EB009E1701 /* MealRater.xcdatamodeld */,
+				8B94ED832CEAF585009E1701 /* Meal.swift */,
 			);
 			path = MealRater;
 			sourceTree = "<group>";
@@ -266,8 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B948D702CD83C780024FE25 /* RatingView.swift in Sources */,
+				8B94ED822CEAF4EB009E1701 /* MealRater.xcdatamodeld in Sources */,
 				8B948D472CD839590024FE25 /* ContentView.swift in Sources */,
 				8B948D722CD83FBF0024FE25 /* RatingButton.swift in Sources */,
+				8B94ED842CEAF585009E1701 /* Meal.swift in Sources */,
 				8B948D452CD839590024FE25 /* MealRaterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,6 +625,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B94ED802CEAF4EB009E1701 /* MealRater.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B94ED812CEAF4EB009E1701 /* MealRater.xcdatamodel */,
+			);
+			currentVersion = 8B94ED812CEAF4EB009E1701 /* MealRater.xcdatamodel */;
+			name = MealRater.xcdatamodeld;
+			path = "/Users/varun/Desktop/meal-rater/MealRater/MealRater.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8B948D392CD839580024FE25 /* Project object */;
 }
